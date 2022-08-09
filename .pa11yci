@@ -1,0 +1,9 @@
+{
+  "defaults": {
+    "concurrency": 1,
+    "standard": "WCAG2AA",
+    "runners": [
+      "axe"
+    ]
+  }
+}
