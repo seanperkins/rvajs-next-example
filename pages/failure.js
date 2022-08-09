@@ -8,6 +8,7 @@ export default function Failure() {
       <h1>Failure</h1>
       <img src="https://via.placeholder.com/350x150" />
       <form onSubmit={handleSubmit}>
+        <label>Name</label>
         <input type="text" placeholder="Enter your name" name="name" />
         <button type="submit">Submit</button>
       </form>
