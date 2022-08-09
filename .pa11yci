@@ -3,7 +3,8 @@
     "concurrency": 1,
     "standard": "WCAG2AA",
     "runners": [
-      "axe"
+      "axe",
+      "htmlcs"
     ]
   }
 }
