@@ -15,10 +15,12 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
+        <img src="/test.png" />
 
         <p className={styles.description}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
+          <img src="/test.png"/>
         </p>
 
         <div className={styles.grid}>
@@ -60,7 +62,7 @@ export default function Home() {
         >
           Powered by{' '}
           <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+            <Image src="/vercel.svg" width={72} height={16} />
           </span>
         </a>
       </footer>
