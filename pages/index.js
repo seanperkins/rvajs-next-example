@@ -11,13 +11,9 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Hi RVA.js
-        </h1>
+        <h1 className={styles.title}>Hi RVA.js</h1>
         <img src="https://via.placeholder.com/350x150" alt="placeholder" />
-
       </main>
-
     </div>
   )
 }
